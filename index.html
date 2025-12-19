@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                <h3>HOME</h3>
+                <h2 id="home-score"></h2>
+                <div class="btn-container">
+                    <button id="home-btn-1" onclick="homeplus1()">+1</button>
+                    <button id="home-btn-2" onclick="homeplus2()">+2</button>
+                    <button id="home-btn-3" onclick="homeplus3()">+3</button>
+                </div>
+            </div>
+            <div class="team">
+                <h3>GUEST</h3>
+                <h2 id="guest-score"></h2>
+                <div class="btn-container">
+                    <button id="guest-btn-1" onclick="guestplus1()">+1</button>
+                    <button id="guest-btn-2" onclick="guestplus2()">+2</button>
+                    <button id="guest-btn-3" onclick="guestplus3()">+3</button>
+                </div>              
+            </div>                            
+        </div>
+        <button id="reset-btn" onclick="reset()">Reset</button>  
+        <script src="index.js"></script>
+    </body>
+</html>
